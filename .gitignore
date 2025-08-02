@@ -1,0 +1,54 @@
+# ==== Seguridad: Proteger datos sensibles ====
+# Claves SSH o privadas
+*.pem
+*.key
+*.pub
+id_rsa*
+id_ed25519*
+key20*
+sgc.holberton*
+
+# Credenciales y configuraciones privadas
+*.env
+*.secret
+*.credentials
+*.pfx
+
+# ==== Informes generados ====
+/reports/*
+!reports/.gitkeep
+
+# ==== Archivos temporales ====
+*.tmp
+*.log
+*.bak
+*.swp
+
+# ==== PowerShell (PS1) y entorno ====
+*.ps1xml
+*.psd1
+*.psm1
+
+# ==== Windows basura ====
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# ==== VSCode y otros entornos ====
+.vscode/
+*.code-workspace
+
+# ==== Copias locales ====
+*.zip
+*.7z
+*.tar
+*.gz
+
+# ==== Datos de usuario (OneDrive, Config) ====
+OneDrive/
+*.lnk
+
+# ==== Backup de configuración Git ====
+*.orig
+
